@@ -1,0 +1,176 @@
+html{
+    background-color: rgb(211, 201, 230);
+    color:rgb(25, 11, 104);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content{
+    max-width: 900px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+header{
+    color:blueviolet;
+    font-size: 15px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 25px;
+}
+
+/* Site Navigation*/
+.site_nav{
+    margin-top: 10px;
+}
+
+.site_nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.site_nav li{
+list-style: none;
+float: left;
+margin-right: 5px;
+}
+
+.site_nav a{
+    display: block;
+    text-decoration: none;
+    color: brown;
+    padding: 10px 20px;
+    background-color: rgb(180, 139, 219);
+    border: 2px solid purple;
+    border-bottom: none;
+}
+
+.site_nav a:hover{
+    color: aqua;
+    background-color: brown;
+}
+/* End of Site Navigation*/
+.content{
+    border-top:2px solid black ;
+    border-bottom: 2px solid black;
+}
+
+
+.main_content{
+    width: 60%;;
+   float: left;
+   padding-right: 10px;
+   box-sizing: border-box;
+
+    
+}
+
+.sidepara{
+    width: 40%;
+    float: left;
+    margin-top: 5px;
+    border: 1px solid purple;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background-color: rgb(157, 93, 216);
+    
+    
+    
+}
+/* Cat picture */
+.cat_picture{
+    position: relative;
+    float: right;
+    border: 2px solid purple;
+    margin-top: 10px;
+    margin-left: 150px;
+    border-bottom: none;
+    box-sizing: border-box;
+    
+}
+.cat_picture img{
+    display: block;
+}
+
+
+.cat_picture p{
+    position: absolute;
+    padding:0px 100px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgb(0, 0, 0, .4);
+    
+    
+}
+
+/* End of Cat picture*/
+
+/* Table */
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+
+table th{
+text-align: left;
+background-color: blueviolet;
+color: aliceblue;
+text-shadow: 1px 1px rgba(0, 0, 0, .65);
+    
+}
+
+table th, table td{
+    border: 1px solid black;
+}
+
+/* End of Table*/
+
+
+/* Form Styles*/
+form{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+input[type="email"],input[type="password"]{
+display: block;
+box-sizing: border-box;
+padding: 0px 10px;
+height: 40px;
+inset: 2px 2px black;
+}
+
+/*End of Form Styles*/
+
+footer{
+    color: rgb(192, 155, 228);
+    text-align: center;
+}
+
+.next_page{
+    font-size: 30px;
+}
+
+
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
